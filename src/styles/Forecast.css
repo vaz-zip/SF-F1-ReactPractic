@@ -1,0 +1,38 @@
+select {
+    font: 1em sans-serif;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+
+}
+
+table {
+    font: 2em normal;
+    font-weight: bold;
+    font-style:italic;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media all and (max-width: 900px) {
+    select {
+        font-size: medium;
+        border-radius: 1px;
+    }
+
+    table {
+        font: 20px sans-serif;
+        font-weight: bold;
+        font-style:italic;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+}  
+
+     

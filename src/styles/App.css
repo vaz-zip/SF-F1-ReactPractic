@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+      
+}
+
+body {
+    
+    background-image: url('images/image_1.jpg');
+    
+    
+    background-size: cover;
+    background-color: RGB (122,176,214);
+}
+
+@media all and (max-width: 900px) {
+    body {
+        background-size: 170% 130%;
+    }
+}
+
+
